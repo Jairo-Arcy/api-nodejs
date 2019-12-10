@@ -1,11 +1,24 @@
 {
   "name": "node-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jairo-Arcy/learning-nodeJS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Jairo-Arcy/learning-nodeJS/issues"
+  },
+  "homepage": "https://github.com/Jairo-Arcy/learning-nodeJS#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
